@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header1">To Do List</h1>
+    </header>
+    <main>
+        <section id="textCon">
+            <div id="centeradd">
+                <div id="wrapping">
+                    <input type="text" id="tasks" />
+                    <input type="button" onclick="addItem();" class="btn" id="addtask" value="+" />
+                    <input type="button" onclick="Reset();" class="btn" id="reset" value="Reset" />
+                </div>
+            </div>
+        </section>
+        <section id="lists">
+            <div id="center">
+                <div class="list1 reslist1">
+                    <section class="innerSec" id="ToDo">
+                        <h2 id="redSec">ToDo</h2>
+                        <ul id="ulred" ondragover="allowDrop(event)" ondrop="drop(event)" /ul>
+                    </section>
+                </div>
+                <div class="list1 reslist2">
+                    <section class="innerSec" id="InProg">
+                        <h2 id="yellowSec">InProgress</h2>
+                        <ul id="ulyellow" ondragover="allowDrop(event)" ondrop="drop(event)"></ul>
+                    </section>
+                </div>
+                <div class="list1 reslist3">
+                    <section class="innerSec" id="Done">
+                        <h2 id="greenSec">Done</h2>
+                        <ul id="ulgreen" ondragover="allowDrop(event)" ondrop="drop(event)"></ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+ #header1 {
+     text-align: center;
+     margin-top: 5%;
+     color: rgb(252, 201, 188);
+     font-size: 3rem;
+ }
+ 
+ #textCon {
+     margin-top: 2%;
+ }
+ 
+ #centeradd {
+     width: 22%;
+     margin: 0 auto;
+ }
+ 
+ #wrapping {
+     width: 100%;
+ }
+ 
+ #tasks {
+     width: 70%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     border: 2px solid rgb(252, 201, 188);
+     box-sizing: border-box;
+ }
+ 
+ #tasks:hover {
+     border: 2px solid black;
+     color: rgb(252, 201, 188);
+ }
+ 
+ .btn {
+     background-color: rgb(252, 201, 188);
+     border: none;
+     color: white;
+     padding: 12px 11px;
+     text-align: center;
+     font-size: 16px;
+ }
+ 
+ .btn:hover {
+     background-color: black;
+     color: rgb(252, 201, 188);
+ }
+ 
+ #lists {
+     background-image: url("../imgs/roses.jpg");
+     background-size: 100% 600px;
+     padding: 50px;
+     display: flex;
+     height: auto;
+     margin-top: 2%;
+ }
+ 
+ #center {
+     width: 70%;
+     margin: 0 auto;
+ }
+ 
+ .list1 {
+     width: 33%;
+ }
+ 
+ .innerSec {
+     width: 95%;
+     border-radius: 10px;
+     margin: 5px auto;
+     color: black;
+     opacity: 90%;
+     background-color: white;
+     height: 400px;
+ }
+ 
+ .innerSec h2 {
+     border-radius: 10px;
+     height: 50px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     text-align: center;
+ }
+ 
+ .innerSec ul {
+     border-radius: 10px;
+     overflow: auto;
+     text-align: justify;
+     padding: 8px;
+     margin: 0px;
+     height: 333px;
+ }
+ 
+ #redSec {
+     background-color: rgb(252, 201, 188);
+ }
+ 
+ #yellowSec {
+     background-color: rgb(247, 247, 174);
+ }
+ 
+ #greenSec {
+     background-color: rgb(167, 247, 167);
+ }
+ 
+ .innerSec li {
+     border-radius: 10px;
+     margin: 5px;
+     padding-left: 5px;
+     list-style-type: none;
+     font-size: 16px;
+     overflow-wrap: break-word;
+     font-weight: bold;
+     width: 95%;
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     box-sizing: content-box;
+ }
+ 
+ .innerSec li p {
+     overflow-wrap: break-word;
+     width: 70%;
+ }
+ 
+ .innerSec li input {
+     border-radius: 10px;
+     opacity: 50%;
+     border: none;
+     width: 10%;
+     height: auto;
+     color: black;
+     padding: 3px 7px;
+     margin: 5px;
+     width: fit-content;
+ }
+ 
+ .innerSec li input:hover {
+     background-color: rgb(117, 243, 243);
+ }
+ 
+ #ToDo ul li {
+     background-color: rgb(252, 201, 188);
+ }
+ 
+ #InProg ul li {
+     background-color: rgb(252, 252, 132);
+ }
+ 
+ #Done ul li {
+     background-color: rgb(151, 241, 151);
+ }
+ 
+ @media screen and (min-width:1024px) {
+     .list1 {
+         width: 33%;
+         float: left;
+     }
+     #centeradd {
+         width: 50%;
+         margin: 0 auto;
+     }
+ }
+ 
+ @media screen and (min-width:800px) and (max-width:1023px) {
+     .reslist1 {
+         width: 50%;
+         float: left;
+     }
+     .reslist2 {
+         width: 50%;
+         float: right;
+     }
+     .reslist3 {
+         width: 100%;
+         float: left;
+         display: block;
+     }
+     #centeradd {
+         width: 70%;
+         margin: 0 auto;
+     }
+ }
+ 
+ @media screen and (min-width:200px) and (max-width:799px) {
+     .list1 {
+         width: 100%;
+     }
+     #centeradd {
+         width: 100%;
+         margin: 0 auto;
+     }
+ }
